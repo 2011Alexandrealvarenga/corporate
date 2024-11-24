@@ -1,11 +1,18 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+import AppHeader from './components/header';
+import AppHero from './components/hero';
 
 function App() {
   return (
     <div className="App">
-      <Button variant="primary">primary</Button>
+      <header id='header'>
+        <AppHeader />
+      </header>
+      <main>
+        <AppHero />
+
+      </main>
     </div>
   );
 }
