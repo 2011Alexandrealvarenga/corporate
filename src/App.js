@@ -9,6 +9,7 @@ import AppTeams from './components/teams';
 import AppTestimonials from './components/testimonials';
 import AppPricing from './components/pricing';
 import AppBlog from './components/blog';
+import AppContact from './components/contact';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <AppTestimonials />
         <AppPricing />
         <AppBlog />
+        <AppContact />
       </main>
     </div>
   );
