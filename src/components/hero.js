@@ -38,7 +38,7 @@ export default function AppHero(){
                 <Carousel.Caption>
                   <h3>{hero.title}</h3>
                   <p>{hero.description}</p>
-                  <a className='btn btn-primary' href={hero.link}>Learn more <i class="fas fa-chevron-right"></i></a>
+                  <a className='btn btn-primary' href={hero.link}>Learn more <i className="fas fa-chevron-right"></i></a>
                 </Carousel.Caption>
 
               </Carousel.Item>
